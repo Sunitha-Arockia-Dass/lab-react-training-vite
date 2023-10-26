@@ -39,51 +39,158 @@
 
 .profile-card {
   display: flex;
-  border: 1px solid black;
+  border: 3px solid black;
+  margin: 5px;
+}
+.profile-card-img img {
+  width: 100%;
+  height: 95%;
   margin: 5px;
 }
 .profile-card div:nth-child(2) {
   display: flex;
   flex-direction: column;
-}
-.box-color{
-  border: 1px solid black;
   margin: 10px;
+  text-align: left;
+  font-size: 1.2em;
 }
-.credit-card{
+.box-color {
+  border: 1px solid black;
+  width: 50%;
+  margin: 10px auto 10px auto;
+  padding: 30px;
+}
+.credit-card {
   border: 0px solid black;
   border-radius: 20px;
   width: 30%;
   margin: 40px;
 }
-.credit-card p:nth-child(1){
-  
+.credit-card p:nth-child(1) {
   margin: 10px;
-  font-weight:900;
-  color:blue
-
+  font-weight: 900;
+  color: blue;
 }
-.masked{
+.masked {
   margin: 30px;
 }
-.owner{
+.owner {
   margin-left: 32px;
   text-align: left;
   width: 30%;
   padding-bottom: 30px;
 }
-.bank{
+.bank {
   text-align: left;
 }
-.master-img{
-height: 30px;
-width: auto ;
-float: right;
+.master-img {
+  height: 30px;
+  width: auto;
+  float: right;
+  margin: 10px;
+}
+.visa-img {
+  height: 20px;
+  width: auto;
+  float: right;
+  margin: 10px;
+}
+.greetings {
+  width: 50vw;
+  font-size: 2em;
+  text-align: left;
+  border: 3px solid black;
+  margin: 10px;
+  padding: 15px;
+}
+.rating-image img {
+  width: 50px;
+  height: 50px;
+}
+.driver-card {
+  border: 1px solid transparent;
+  border-radius: 15px;
+  background-color: #455eb5;
+  margin: 15px auto 15px auto;
+  width: 50%;
+}
+.driver-card-content {
+  display: flex;
+  justify-content: left;
+  width: 50%;
+  margin: 10px auto 10px auto;
+  color: white;
+}
+.driver-card img {
+  border-radius: 100px;
+  margin: 20px;
+  width: 10%;
+  height: 10%;
+}
+.driver-details {
+  width: 80%;
+}
+.btn {
+  padding: 10px;
+  margin: 30px;
+  font-size: 1.5em;
+}
+.glass {
+  width: 25%;
+  position: fixed;
+  top: 135px;
+  left: 750px;
+}
+.image img:nth-child(1) {
+  width: 80%;
+}
+.image button {
+  border-color: transparent;
+  background-color: white;
+}
+.dice img {
+  width: 20%;
+  height: 20%;
+}
+.dice-btn {
+  margin: 18%;
+  border-color: transparent;
+  background-color: white;
+}
+.carousel-img {
+  margin: 30px;
+  width: 30%;
+  height: 50vh;
+}
+.image-btn {
+  padding: 15px;
+  background-color: aqua;
+  border-color: transparent;
+}
+.number-table{
+  width: 50%;
+  margin: auto;
+}
+.number-table table {
+  margin: 30px;
+}
+.number-table table td {
+  font-size: 2em;
+  padding: 30px;
+  border: 3px solid black;
+}
+.facebook-card-content p{
+  font-size: 1.3em;
+}
+.facebook-card-img img{
+width: 250px;
+height: 250px;
 margin: 10px;
 }
-.visa-img{
-height: 40px;
-width: auto ;
-float: right;
-margin: 10px;
+.selected{
+  background-color:aqua;
+}
+.signup form{
+  width: 15%;
+  margin: 40px auto 20px auto;
 }

@@ -1,3 +1,6 @@
+import Visa from "../assets/images/visa.png";
+import MasterCard from "../assets/images/master-card.svg";
+
 function CreditCard({
   type,
   number,
@@ -18,17 +21,9 @@ function CreditCard({
   return (
     <div className="credit-card" style={cardStyle}>
       {type === "Visa" ? (
-        <img
-          className="visa-img"
-          src="https://cdn.freebiesupply.com/logos/large/2x/visa-5-logo-png-transparent.png"
-          alt="Visa Logo"
-        />
+        <img className="visa-img" src={Visa} alt="Visa Logo" />
       ) : (
-        <img
-          className="master-img"
-          src="https://purepng.com/public/uploads/large/purepng.com-mastercard-logologobrand-logoiconslogos-251519938372dnf77.png"
-          alt="Other Card Logo"
-        />
+        <img className="master-img" src={MasterCard} alt="Other Card Logo" />
       )}
       <br></br>
       <h1 className="masked">{maskedNumber}</h1>
@@ -43,10 +38,7 @@ function CreditCard({
         </div>
       </div>
       <div className="owner">{owner}</div>
-      
     </div>
-    
-    
   );
 }
 
