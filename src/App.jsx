@@ -13,7 +13,8 @@ import "./App.css";
 //  import Carousel from "./components/Carousel.jsx";
 //  import NumbersTable from "./components/NumbersTable";
 //  import FaceBook from "./components/FaceBook";
- import SignupPage from "./components/SignupPage";
+//  import SignupPage from "./components/SignupPage";
+ import RGBColorPicker from "./components/RGBColorPicker";
 
 
 function App() {
@@ -117,7 +118,9 @@ function App() {
 /> */}
 {/* <NumbersTable limit={12} /> */}
 {/* <FaceBook /> */}
-<SignupPage />
+{/* <SignupPage /> */}
+
+<RGBColorPicker />
 
 
     </div>
